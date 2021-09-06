@@ -1,0 +1,22 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    color: brown
+}
+
+p {
+    font-size: 14pt;
+}
+
+body {
+    background-color: yellow;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-image: url("cachorro300x300.jpg");
+}
