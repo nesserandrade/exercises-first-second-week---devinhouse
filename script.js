@@ -63,6 +63,7 @@ if (operador == "/") {
 alert('O resultado do cálculo é ' + calculo)
 
 var now = new Date()
-var time = now.getHours() + ':' + now.getMinutes()
-
+var currentHours = ('0'+now.getHours()).substr(-2)
+var currentMinutes = ('0'+now.getMinutes()).substr(-2)
+var time = currentHours + ":" + currentMinutes
 alert(time)
